@@ -64,3 +64,29 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+/* footer */
+.footer-row{padding-top: 40px;}
+ .footer{background-color: #000000;}
+.icon{list-style: none;
+display: flex;
+gap: 10px;}
+
+#footer-img{color:white;}
+
+.company-li{list-style: none;}
+.company-li a{text-decoration: none;
+color: white;}
+.footer-row p{color: white;}
+
+.icon i{color: white;}
+.input{display: flex;
+border:2px solid red;
+justify-content: center;
+align-items: center;
+width: 230px;
+}
+input{border: none;
+outline: none;}
+.fa-solid{color:white;}
+ .footer-row h4{color:white;}
