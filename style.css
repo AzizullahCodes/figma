@@ -1,6 +1,12 @@
 /* navbar */
 .do{display: flex;
     justify-content: flex-end !important;}
+    .custom-navbar{padding-left: 40px !important;
+    padding-right: 40px !important;}
+  .nav-ul{display: flex;
+justify-content: flex-end;
+gap:30px;}
+    .new-collapse{justify-content: flex-end !important;}
 
     /* section 2 */
     .section-2-row{display: flex;
@@ -72,7 +78,7 @@ align-items: center;
 display: flex;
 gap: 10px;}
 
-#footer-img{color:white;}
+#footer-img{}
 
 .company-li{list-style: none;}
 .company-li a{text-decoration: none;
@@ -81,12 +87,17 @@ color: white;}
 
 .icon i{color: white;}
 .input{display: flex;
-border:2px solid red;
+
 justify-content: center;
 align-items: center;
 width: 230px;
+background-color: white;
 }
 input{border: none;
 outline: none;}
-.fa-solid{color:white;}
+
  .footer-row h4{color:white;}
+
+ /* media query */
+ @media screen and (max-width:576px){.footer-row{gap:30px;
+padding-bottom: 30px;}}
